@@ -1,0 +1,12 @@
+{
+  "name": "TYS Booking Enhancer",
+  "description": "Book all the saunas!!",
+  "version": "0.1",
+  "manifest_version": 2,
+  "content_scripts": [
+      {
+        "matches":    ["https://booking.tys.fi/varaus/service/timetable/*"],
+        "js":         ["content_script.js"]  
+      }
+  ]
+}
